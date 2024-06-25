@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 30%;
+    background-color: rgb(33, 31, 31);
+    color: rgb(163, 163, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+
+.profile-pic {
+    margin: 0 auto;
+}
+
+#profile-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.list {
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-list ul{
+    list-style-type: none;
+}
+
+.contact-list ul li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.skills-list h4{
+    font-weight: 500;
+
+}
+
+.skills-list ul{
+   margin-top: 30px;
+   padding-left: 30px;
+   font-size: 20px;
+}
+
+.skills-list li{
+    margin-top: 5px;
+}
+
+.education-list h4{
+    font-weight: 500;
+}
+
+.education-list div {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.education-list div strong{
+    color: rgb(203, 203, 203);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.top {
+    width: 800px;
+    margin: 80px;
+}
+
+.top h1 {
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.top span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    letter-spacing: 4;
+    
+}
+
+.top p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 32px;
+    font-size: 20px;
+    color: #818181;
+}
+
+.mid {
+    margin: 20px 80px;
+}
+
+.mid h4 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.exp {
+    margin-bottom: 30px;
+    font-size: 24px;
+    
+}
+
+
+.exp h5 {
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.exp ul{
+    padding-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.cp-text {
+    color: rgba(0, 0, 0, .7);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
